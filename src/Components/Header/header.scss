@@ -1,0 +1,27 @@
+.header {
+    // .ilike-blue-container {
+    //     @extend .blue, .lighten-4;
+    // }
+    .nav-wrapper {
+        padding: 0 10px;
+    }
+    .sidenav {
+        background: #3C3B3F;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to bottom, #605C3C, #3C3B3F);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to bottom, #605C3C, #3C3B3F);
+        
+        &-trigger {
+            position: absolute;
+            right: 20px;
+            top: 20px;
+            
+            i {
+                color: #fff;
+            }
+            @media screen and (min-width: 992px) {
+                display: none;
+            }
+        }
+    }
+    
+}

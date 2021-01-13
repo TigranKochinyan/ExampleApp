@@ -1,14 +1,16 @@
 import React from 'react';
 import { render } from 'react-dom';
+import 'materialize-css/dist/css/materialize.min.css';
+import M from 'materialize-css';
 
-import Cards from './Components/Cards';
-import './assets/main.css';
+import Home from './Components/Home';
+import './assets/main.scss';
 
 const App = () => {
+    M.AutoInit();//meybe is not required
     return (
         <div>
-            <h1>React app</h1>
-            <Cards />
+            <Home />
         </div>
     )
 }

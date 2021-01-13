@@ -53,6 +53,8 @@ const plugins = () => {
         new CopyWebpackPlugin({
             patterns: [
               { from: "./index.png", to: path.resolve(__dirname, 'dist') }
+            //   { from: "./assets/img", to: path.resolve(__dirname, 'dist/img') }
+
             ],
         }),
         new MiniCssExtractPlugin({

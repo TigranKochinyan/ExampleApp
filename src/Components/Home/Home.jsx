@@ -1,13 +1,18 @@
 import React, { useRef, useEffect } from 'react';
 import Header from './../Header';
 import About from './../About';
+import SectionTitle from './../SectionTitle';
+import Portfolio from './../Portfolio';
+
 
 const Home = (props) => {
     return (
         <>
             <Header />
             <About />
-        </>
+            <SectionTitle title="my Portfolio"/>
+            <Portfolio />
+        </>    
     )
     
 }

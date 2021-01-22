@@ -1,0 +1,21 @@
+.about {
+    display: flex;
+    justify-content: center;
+
+    &-image {
+        width: 80%;
+        img {
+            width: 100%;
+        }
+    }
+    &-heading {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 90%;
+        h1 {
+            font-size: 5vw;
+        }
+    }
+}

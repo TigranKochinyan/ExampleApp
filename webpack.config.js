@@ -118,8 +118,9 @@ const config = {
                 use: cssLoaders('sass-loader')
             },
             {
-                test: /\.(png|jpg|svg|gif)$/,
-                use: ['file-loader']
+                test: /\.(png|jpg|svg|gif|jpeg)$/,
+                // use: ['file-loader']
+                type: 'asset/resource'
             },
             {
                 test: /\.(ttf|woff|woff2|eot)$/,

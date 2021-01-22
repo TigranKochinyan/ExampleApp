@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import './header.scss';
+import myImage from './../../assets/img/tigo.jpeg';
 
 const Header = () => {
     let mySelect = useRef(null);
@@ -27,7 +28,7 @@ const Header = () => {
                     <li>
                         <div className="user-view">
                             <div className="background">
-                                <img src="images/office.jpg" />
+                                <img src={myImage} />
                             </div>
                             <a href="#user"><img className="circle" src="images/yuna.jpg" /></a>
                             <a href="#name"><span className="white-text name">John Doe</span></a>

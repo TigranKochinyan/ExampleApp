@@ -3,6 +3,12 @@ import Header from './../Header';
 import About from './../About';
 import SectionTitle from './../SectionTitle';
 import Portfolio from './../Portfolio';
+import TextAndImage from './../TextAndImage';
+import Skills from './../Skills';
+import Projects from './../Projects';
+
+import booksImage from './../../assets/img/books.jpg';
+
 
 
 const Home = (props) => {
@@ -10,8 +16,17 @@ const Home = (props) => {
         <>
             <Header />
             <About />
-            <SectionTitle title="my Portfolio"/>
-            <Portfolio />
+            <TextAndImage 
+                title="Philosophy & values"
+                text="I think everyone wants the same thing - relationship with humanity, 
+                peace with the metaphysical, and experience with the universe. I try to 
+                grasp these things with my values: authenticity, creativity, & hospitality." 
+                img={booksImage}
+            />
+            <Skills/>
+            <Projects/>
+            {/* <SectionTitle title="my Portfolio"/>
+            <Portfolio /> */}
         </>    
     )
     

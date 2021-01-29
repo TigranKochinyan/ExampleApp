@@ -11,7 +11,9 @@ const About = () => {
                 <img src={myImage} alt="My image :)"/>
             </div>
             <div className="about-heading">
-                <h1>Hi my name is Tigran Kochinyan</h1>
+                <h1>I'm Tigran Kochinyan</h1>
+                <h1>A front-end Developer</h1>
+                <h1 className="about-heading-h1_grey">based in Armenia.</h1>
             </div>
 
         </div>

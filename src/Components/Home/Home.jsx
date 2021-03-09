@@ -6,6 +6,7 @@ import Portfolio from './../Portfolio';
 import TextAndImage from './../TextAndImage';
 import Skills from './../Skills';
 import Projects from './../Projects';
+import Footer from './../Footer';
 
 import booksImage from './../../assets/img/books.jpg';
 // import image from './../../assets/img/pexels-wallace-chuck-3749989.jpg';
@@ -24,8 +25,9 @@ const Home = (props) => {
             />
             <Skills/>
             <Projects/>
-            {/* <SectionTitle title="my Portfolio"/>
-            <Portfolio /> */}
+            {/* <SectionTitle title="my Portfolio"/>*/}
+            <Portfolio />
+            <Footer />
         </>    
     )
     

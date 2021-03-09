@@ -1,0 +1,20 @@
+.portfolio {
+    &-buttons {
+        display: flex;
+        justify-content: space-evenly;
+        width: 70%;
+        margin: auto;
+        flex-wrap: wrap;
+        button {
+            background-color: transparent;
+            border: none;
+            color: white;
+            cursor: pointer;
+            padding: 7px;
+
+            &.active-link {
+                color: red
+            }
+        }
+    }
+}

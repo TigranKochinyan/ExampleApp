@@ -8,8 +8,7 @@ import Skills from './../Skills';
 import Projects from './../Projects';
 
 import booksImage from './../../assets/img/books.jpg';
-
-
+// import image from './../../assets/img/pexels-wallace-chuck-3749989.jpg';
 
 const Home = (props) => {
     return (
@@ -31,7 +30,6 @@ const Home = (props) => {
     )
     
 }
-
 
 export default Home;
 

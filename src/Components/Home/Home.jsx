@@ -1,33 +1,13 @@
 import React, { useRef, useEffect } from 'react';
-import Header from './../Header';
-import About from './../About';
-import SectionTitle from './../SectionTitle';
-import Portfolio from './../Portfolio';
-import TextAndImage from './../TextAndImage';
-import Skills from './../Skills';
-import Projects from './../Projects';
-import Footer from './../Footer';
+// import Header from './../Header';
 
-import booksImage from './../../assets/img/books.jpg';
+// import booksImage from './../../assets/img/books.jpg';
 // import image from './../../assets/img/pexels-wallace-chuck-3749989.jpg';
 
 const Home = (props) => {
     return (
         <>
-            <Header />
-            <About />
-            <TextAndImage 
-                title="Philosophy & values"
-                text="I think everyone wants the same thing - relationship with humanity, 
-                peace with the metaphysical, and experience with the universe. I try to 
-                grasp these things with my values: authenticity, creativity, & hospitality." 
-                img={booksImage}
-            />
-            <Skills/>
-            <Projects/>
-            {/* <SectionTitle title="my Portfolio"/>*/}
-            <Portfolio />
-            <Footer />
+            home page
         </>    
     )
     

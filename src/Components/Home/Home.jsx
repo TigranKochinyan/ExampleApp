@@ -1,5 +1,7 @@
 import React, { useRef, useEffect } from 'react';
-// import Header from './../Header';
+import Footer from '../Footer';
+import Header from './../Header';
+import Portfolio from './../Portfolio';
 
 // import booksImage from './../../assets/img/books.jpg';
 // import image from './../../assets/img/pexels-wallace-chuck-3749989.jpg';
@@ -7,7 +9,12 @@ import React, { useRef, useEffect } from 'react';
 const Home = (props) => {
     return (
         <>
-            home page
+            <Header/>
+            <div className="container">
+                <Portfolio />
+
+            </div>
+            <Footer/>
         </>    
     )
     

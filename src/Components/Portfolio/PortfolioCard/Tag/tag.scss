@@ -1,0 +1,15 @@
+.tag {
+    padding: 5px 7px;
+    border-radius: 3px;
+    margin: 1px;
+    color: #f3f3f3;
+    &-react {
+        background-color: #61dafb;
+    }
+    &-vue {
+        background-color: #42b983;
+    }
+    &-materialize-css {
+        background-color: #ee6e73;
+    }
+}
